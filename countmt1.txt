@@ -1,0 +1,10 @@
+difference between fasta/f1.fa and X2b5 is 6
+difference between fasta/f1.fa and X2b+226 is 8
+difference between fasta/f1.fa and X2b4 is 9
+difference between fasta/f1.fa and X2b is 9
+difference between fasta/f1.fa and X2b9 is 9
+difference between fasta/f1.fa and X2b8 is 9
+difference between fasta/f1.fa and X2b+226+16192 is 9
+difference between fasta/f1.fa and X2b7 is 9
+difference between fasta/f1.fa and X2b3 is 10
+difference between fasta/f1.fa and X2b11 is 10

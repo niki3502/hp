@@ -1,0 +1,10 @@
+difference between fasta/f7.fa and L2a1f is 7
+difference between fasta/f7.fa and L2a1f3 is 8
+difference between fasta/f7.fa and L2a1f2 is 8
+difference between fasta/f7.fa and L2a1+16189__(16192) is 8
+difference between fasta/f7.fa and L2a1f1 is 8
+difference between fasta/f7.fa and L2a1b is 9
+difference between fasta/f7.fa and L2a1+143+16189__(16192) is 9
+difference between fasta/f7.fa and L2a1+143+16189__(16192)+@16309 is 9
+difference between fasta/f7.fa and L2a1f1a is 9
+difference between fasta/f7.fa and L2a1l is 10

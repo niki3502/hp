@@ -1,0 +1,1 @@
+difference between fasta/f8.fa and ref/R.fasta.gz is 23

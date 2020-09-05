@@ -1,0 +1,10 @@
+difference between fasta/f6.fa and R5a2 is 13
+difference between fasta/f6.fa and R5a2a is 14
+difference between fasta/f6.fa and R5a is 19
+difference between fasta/f6.fa and R5 is 20
+difference between fasta/f6.fa and R5a1 is 22
+difference between fasta/f6.fa and R is 25
+difference between fasta/f6.fa and R5a1a is 25
+difference between fasta/f6.fa and R30 is 26
+difference between fasta/f6.fa and R0+16189 is 26
+difference between fasta/f6.fa and R2'JT is 26

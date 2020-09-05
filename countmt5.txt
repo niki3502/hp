@@ -1,0 +1,10 @@
+difference between fasta/f5.fa and U7b is 43
+difference between fasta/f5.fa and U7 is 44
+difference between fasta/f5.fa and U7a is 45
+difference between fasta/f5.fa and U7b1 is 45
+difference between fasta/f5.fa and U7a1 is 46
+difference between fasta/f5.fa and U7a3 is 46
+difference between fasta/f5.fa and U7a2 is 46
+difference between fasta/f5.fa and U7a3a is 47
+difference between fasta/f5.fa and U7a4 is 47
+difference between fasta/f5.fa and U7a4a is 48

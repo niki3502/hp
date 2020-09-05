@@ -1,0 +1,10 @@
+difference between fasta/f3.fa and R9b1a1a is 6
+difference between fasta/f3.fa and R9b1a1 is 7
+difference between fasta/f3.fa and R9b1a is 10
+difference between fasta/f3.fa and R9b1 is 10
+difference between fasta/f3.fa and R9b1a2 is 11
+difference between fasta/f3.fa and R9b1a2b is 12
+difference between fasta/f3.fa and R9b is 13
+difference between fasta/f3.fa and R9b1b is 13
+difference between fasta/f3.fa and R9b1a3 is 13
+difference between fasta/f3.fa and R9b1a2a is 14

@@ -1,0 +1,1 @@
+difference between fasta/f1.fa and ref/X2b5.fasta.gz is 6

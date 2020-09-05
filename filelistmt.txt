@@ -1,0 +1,11 @@
+fasta/f1.fa
+fasta/f11.fa
+fasta/f6.fa
+fasta/f9.fa
+fasta/f4.fa
+fasta/f7.fa
+fasta/f3.fa
+fasta/f10.fa
+fasta/f5.fa
+fasta/f8.fa
+fasta/f2.fa

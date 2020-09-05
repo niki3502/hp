@@ -1,0 +1,10 @@
+difference between fasta/f2.fa and N1b1a2 is 4
+difference between fasta/f2.fa and N1b1a is 5
+difference between fasta/f2.fa and N1b1a2a is 5
+difference between fasta/f2.fa and N1b1a5 is 6
+difference between fasta/f2.fa and N1b1a+195 is 6
+difference between fasta/f2.fa and N1b1a+16129 is 6
+difference between fasta/f2.fa and N1b1a3 is 6
+difference between fasta/f2.fa and N1b1a8 is 7
+difference between fasta/f2.fa and N1b1a6 is 7
+difference between fasta/f2.fa and N1b1a7 is 7

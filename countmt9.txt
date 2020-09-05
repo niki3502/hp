@@ -1,0 +1,10 @@
+difference between fasta/f9.fa and N9a5 is 1
+difference between fasta/f9.fa and N9a2'4'5'11 is 5
+difference between fasta/f9.fa and N9a is 6
+difference between fasta/f9.fa and N9a10 is 7
+difference between fasta/f9.fa and N9a9 is 7
+difference between fasta/f9.fa and N9a1'3 is 7
+difference between fasta/f9.fa and N9a2 is 7
+difference between fasta/f9.fa and N9a4 is 8
+difference between fasta/f9.fa and N9a2a is 8
+difference between fasta/f9.fa and N9a6 is 8

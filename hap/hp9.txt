@@ -1,0 +1,1 @@
+difference between fasta/f9.fa and ref/N9a5.fasta.gz is 1

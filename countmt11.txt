@@ -1,0 +1,10 @@
+difference between fasta/f11.fa and J1d6 is 3
+difference between fasta/f11.fa and J1d is 4
+difference between fasta/f11.fa and J1d6a is 4
+difference between fasta/f11.fa and J1d1 is 5
+difference between fasta/f11.fa and J1d3 is 5
+difference between fasta/f11.fa and J1d1b is 6
+difference between fasta/f11.fa and J1d3a is 6
+difference between fasta/f11.fa and J1d2 is 6
+difference between fasta/f11.fa and J1d5 is 6
+difference between fasta/f11.fa and J1d1b1 is 7

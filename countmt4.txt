@@ -1,0 +1,10 @@
+difference between fasta/f4.fa and L1b2 is 10
+difference between fasta/f4.fa and L1b2a is 13
+difference between fasta/f4.fa and L1b2'3 is 15
+difference between fasta/f4.fa and L1b is 15
+difference between fasta/f4.fa and L1b3 is 19
+difference between fasta/f4.fa and L1b1 is 20
+difference between fasta/f4.fa and L1b1a+189 is 20
+difference between fasta/f4.fa and L1b1a9 is 21
+difference between fasta/f4.fa and L1b1a is 21
+difference between fasta/f4.fa and L1b1a3 is 21

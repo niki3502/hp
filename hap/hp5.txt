@@ -1,0 +1,1 @@
+difference between fasta/f5.fa and ref/U7b.fasta.gz is 43

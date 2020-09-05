@@ -1,0 +1,1 @@
+difference between fasta/f11.fa and ref/J1d6.fasta.gz is 3

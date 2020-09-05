@@ -1,0 +1,10 @@
+difference between fasta/f8.fa and R is 23
+difference between fasta/f8.fa and R30 is 24
+difference between fasta/f8.fa and R0+16189 is 24
+difference between fasta/f8.fa and R2'JT is 24
+difference between fasta/f8.fa and P is 24
+difference between fasta/f8.fa and P+16176 is 25
+difference between fasta/f8.fa and H+73 is 25
+difference between fasta/f8.fa and R31 is 25
+difference between fasta/f8.fa and R0 is 25
+difference between fasta/f8.fa and R1 is 25

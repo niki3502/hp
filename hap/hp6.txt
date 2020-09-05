@@ -1,0 +1,1 @@
+difference between fasta/f6.fa and ref/R5a2.fasta.gz is 13

@@ -1,0 +1,1 @@
+difference between fasta/f3.fa and ref/R9b1a1a.fasta.gz is 6
