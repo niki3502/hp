@@ -9,8 +9,8 @@ g++ -o hp hp.c -lhts
 
 HOW TO RUN EBD
 1. get mpileup file:
-samtools mpileup -f ref.fa in.bam > mpileup.txt
+samtools mpileup -s -f chrMT.fa bam/in1.bam > mpileup.txt
 2. compile ebd.c
-gcc -o ebd ebd.c -lhts
+gcc -o ebd ebd.c -lhts -lm
 3. run ebd
 ./ebd mpileup.txt
