@@ -6,7 +6,12 @@
 #include <ctype.h>
 #include <math.h>
 
-float pr(int x)
+long double max(long double x, long double y){
+	if(x>y)return x;
+	return y;
+}
+
+long double pr(int x)
 {
 	return pow(10,-x/10);
 }
@@ -57,8 +62,8 @@ int main(int argc,char **argv){
 
 void res(char* ref,char* base,char* baq, char* mq){
  int j=0,i=0;
- float a=1,t=1,g=1,c=1;
-for(i;i<strlen(base);i++){
+ long double a=1,t=1,g=1,c=1;
+for(i=0;i<strlen(base);i++){
   if(base[i]=='.'||base[i]==',')base[i]=ref[0];
   if(base[i]=='$')continue;
   if(base[i]=='-'){i+=1+base[i+1]-'0';continue;}
@@ -93,8 +98,12 @@ if(base[i]=='+'){i+=1+base[i+1]-'0';continue;}
 			c*=1-pr(baq[j]-33);
 		}
 
+		long double maxi = max(max(a,t),max(g,c));
+
     j++;
 
         }
-         printf("%f\t%f\t%f\t%f\n",a,t,g,c);
+
+		long double maxi = max(max(a,t),max(g,c));
+         printf("%.160Lg\t%.160Lg\t%.160Lg\t%.160Lg\n",logl(a/maxi),logl(t/maxi),logl(g/maxi),logl(c/maxi));
 }

@@ -11,7 +11,6 @@ float pr(int x)
 	return pow(10,-x/10);
 }
 
-
 char * getref(char* str){
     strtok(str,"\t");strtok(NULL,"\t ");return  strtok(NULL,"\t");
 }
@@ -58,19 +57,44 @@ int main(int argc,char **argv){
 
 void res(char* ref,char* base,char* baq, char* mq){
  int j=0,i=0;
- int a=0,t=0,g=0,c=0;
+ float a=1,t=1,g=1,c=1;
 for(i;i<strlen(base);i++){
   if(base[i]=='.'||base[i]==',')base[i]=ref[0];
   if(base[i]=='$')continue;
   if(base[i]=='-'){i+=1+base[i+1]-'0';continue;}
 if(base[i]=='+'){i+=1+base[i+1]-'0';continue;}
     if(base[i]=='^'){i++;continue;}
-    if(base[i]=='A'||base[i]=='a')a+=baq[j]-33;
-    if(base[i]=='T'||base[i]=='t')t+=baq[j]-33;
-    if(base[i]=='G'||base[i]=='g')g+=baq[j]-33;
-    if(base[i]=='C'||base[i]=='c')c+=baq[j]-33;
+    if(base[i]=='A'||base[i]=='a')
+		{
+			printf("%f\t",1-pr(baq[j]-33));
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\n",pr(baq[j]-33)/3);
+		}
+    if(base[i]=='T'||base[i]=='t')
+		{
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\t",1-pr(baq[j]-33));
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\n",pr(baq[j]-33)/3);
+		}
+    if(base[i]=='G'||base[i]=='g')
+		{
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\t",1-pr(baq[j]-33));
+			printf("%f\n",pr(baq[j]-33)/3);
+		}
+    if(base[i]=='C'||base[i]=='c')
+		{
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\t",pr(baq[j]-33)/3);
+			printf("%f\n",1-pr(baq[j]-33));
+		}
+
     j++;
 
         }
-         printf("%d\t%d\t%d\t%d\n",a,t,g,c);
+        // printf("%f\t%f\t%f\t%f\n",a,t,g,c);
 }
