@@ -14,3 +14,12 @@ samtools mpileup -s -f chrMT.fa bam/in1.bam > mpileup.txt
 gcc -o ebd ebd.c -lhts -lm
 3. run ebd
 ./ebd mpileup.txt
+
+
+HOW TO GET HAPLOGROUP WITH LIKELIHOOD
+1. get mpileup file:
+samtools mpileup -s -f chrMT.fa bam/in1.bam > mpileup.txt
+2. compile hg.c file:
+gcc -o hg hg.c -lhts -lm
+3. run hg:
+./ebd mpileup.txt
