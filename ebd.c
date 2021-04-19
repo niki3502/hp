@@ -1,3 +1,11 @@
+//EFFECTIVE BASE DEPTH
+// THIS PROGRAM CALCULATES EFFECTIVE BASE DEPTH ACCORDING TO GATK MODEL
+// 
+// HOW TO USE
+
+// g++ ebd.c -lhts -lz -o ebd
+// ebd f.pileup
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

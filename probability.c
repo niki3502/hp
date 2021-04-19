@@ -1,3 +1,11 @@
+//THIS PROGRAM CALCULATES PROBABILITIES OF EACH BASE ON EACH POSITION VIA PILEUP FILE
+
+//HOW TO USE
+//g++ probability.c -lhts -lz -o probability
+// ./probability f.pileup
+    
+
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

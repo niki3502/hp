@@ -70,11 +70,11 @@ int main(int argc, char **argv) {
 
 
     if (argc == 1) {
-        printf("Supply input mpR9b1a1ileup file\n");
+        printf("Supply input mp1ileup file\n");
         return 0;
     }
 
-
+    printf("haplogroup,log-likelihood\n");
     FILE *f = fopen(argv[1], "r");
     while (fgets(fil, 100000, f) != NULL)
     {
@@ -139,7 +139,7 @@ int main(int argc, char **argv) {
 
 //printf("%d",hnum);
     for(i=0;i<10;i++)
-        printf("haplogroup: %s  log-likelihood sum:%.30Lg\n\n",mt[i].name,mt[i].lh);
+        printf("%s,%.30Lg\n",mt[i].name,mt[i].lh);
    /* long double max = 0;
     char * nname;
     for(i=0;i<5438;i++)

@@ -1,3 +1,15 @@
+// THIS PROGRAMM CALCULATES QUALITY SCORE VIA PILEUP FILE
+
+//HOW TO USE
+
+//g++ qscore.c -lhts -lz -o qscore
+//qscore f.pileup
+
+
+
+
+
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

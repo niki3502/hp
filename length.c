@@ -1,3 +1,10 @@
+// THIS PROGRAM SHOWS LENGTH OF FILES IN LIST
+
+//HOW TO USE
+//g++ length.c -lhts -o length
+//length
+// YOU MUST HAVE A "filelist.txt" FILE IN FOLDER WITH EXECUTIVE FILE WHERE LIST OF FASTA FILES MUST BE WRITTEN MUST BE WRITTEN    
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

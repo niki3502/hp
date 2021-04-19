@@ -23,3 +23,5 @@ samtools mpileup -s -f chrMT.fa bam/in1.bam > mpileup.txt
 gcc -o hg hg.c -lhts -lm
 3. run hg:
 ./ebd mpileup.txt
+
+DOCUMANTATION FOR ALL PROGRAMS ARE IN .c or .cpp FILES

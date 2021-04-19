@@ -1,3 +1,12 @@
+//THIS PROGRAM SHOWS NAMES IN FASTA FILELIST
+
+//HOW TO USE
+
+//gcc list.c -lhts -o list
+//list
+// YOU MUST HAVE A "filelist.txt" FILE IN FOLDER WITH EXECUTIVE FILE WHERE LIST OF FASTA FILES MUST BE WRITTEN MUST BE WRITTEN 
+
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

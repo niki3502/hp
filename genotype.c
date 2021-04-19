@@ -1,3 +1,13 @@
+//THIS PROGRAM CALCULATES GENOTYPE LIKELYHOOD FOR EACH POSITION OF EACH BASE
+
+//HOW TO USE
+
+// g++ likelihood.c -lhts -lz -o likelihood 
+// likelihood ./likelihood f.pileup
+
+//THIS PROGRAM HAS OVERFLOW PROBLEM!!!!!!!! 
+
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

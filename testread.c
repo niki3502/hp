@@ -1,3 +1,12 @@
+//TESTREAD
+//print letter letter bases of input fastas, then fastas from filelist
+
+//HOW TO USE
+//g++ testread.c -lhts -o testread 
+//testread f.fa
+
+//ACTUALLY USELESS PROGRAM
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>

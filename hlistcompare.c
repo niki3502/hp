@@ -1,42 +1,37 @@
+// THIS PROGRAM IS USED FOR CALCULATING NUMBER OF DIFFERENT POSITION BETWEEN  - CONSENSUS FASTA FILE - AND LIST OF CONSENSUS FASTA FILES
+//HAMMING LIST COMPARE
+
+// HOW TO USE
+
+//g++ hlistcompare.c -lhts -o hlistcompare
+// ./count f1.fa
+
+// YOU MUST HAVE A "filelist.txt" FILE IN FOLDER WITH EXECUTIVE FILE WHERE LIST OF FASTA FILES MUST BE WRITTEN MUST BE WRITTEN 
+
+
 #include <htslib/faidx.h>
 #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-struct hp
-{
-  int difference;
-  char name[50];
-};
-
-int compare(const void * x1,const void * x2)   // функция сравнения элементов массива
-{
-  return ( ((struct hp*)x1)->difference - ((struct hp*)x2)->difference );              
-}
 
 int main(int argc,char **argv){
   if(argc==1){
     printf("Supply input fasta\n");
     return 0;
   }
-  struct hp mt[5438];
    char *fil;
-   int i=0;
    fil=(char*)malloc(160);
-  void res(char* reference,char* fain, struct hp *mt);
+  void res(char* reference,char* fain);
   FILE *f = fopen("filelist.txt","r");
   char* reference=argv[1];
-  while(fscanf(f,"%s",fil)!=EOF){
- res(reference,fil,mt+i);i++;}
- qsort(mt,5438,sizeof(mt[0]),compare);
- for(i=0;i<10;i++)
- 	printf("difference between %s and %s is %d\n",argv[1],mt[i].name,mt[i].difference);
- 	//printf("%d",compare(mt,mt+2));
+  while(fscanf(f,"%s",fil)!=EOF)
+ res(reference,fil);
   return 0;
 }
 
-void res(char* reference,char* fain,struct hp *mt){
+void res(char* reference,char* fain){
  int j=0;
  faidx_t *fai = NULL;
  faidx_t *ref = NULL;
@@ -57,9 +52,7 @@ void res(char* reference,char* fain,struct hp *mt){
   char *dataref = fai_fetch(ref,nameref,&nameref_len);
   for(int i=0;i<name_len;i++)
     if(toupper(data[i])!=toupper(dataref[i]))j++;
-  //  printf("%d is difference between %s and %s \n",j,nameref,name);
-    strcpy(mt->name,name);
-    mt->difference=j;
+    printf("difference between %s and %s is %d\n",nameref,name,j);
     fai_destroy(fai);
     fai_destroy(ref);
    return;
